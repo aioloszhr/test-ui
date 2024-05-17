@@ -10,7 +10,8 @@
 		"preview": "vite preview",
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build",
-		"prepare": "husky"
+		"prepare": "husky",
+		"lint:script": "eslint --ext .js,.jsx,.ts,.tsx --fix --quiet ./src"
 	},
 	"dependencies": {
 		"react": "^18.2.0",
@@ -47,9 +48,9 @@
 		"vite": "^5.2.0"
 	},
 	"lint-staged": {
-		"src/**/*.{js,jsx,ts,tsx,json}": [
-			"prettier --config .prettierrc.cjs --write",
-			"eslint --fix"
+		"*.{js,jsx,ts,tsx}": [
+			"pnpm run lint:script",
+			"git add ."
 		]
 	}
 }
