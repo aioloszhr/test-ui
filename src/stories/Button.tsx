@@ -44,6 +44,7 @@ export const Button = ({
 			{...props}
 		>
 			{label}
+			<span>123</span>
 		</button>
 	);
 };
