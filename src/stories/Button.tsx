@@ -30,7 +30,6 @@ interface ButtonProps {
 export const Button = ({
 	primary = false,
 	size = 'medium',
-
 	backgroundColor,
 	label,
 	...props
@@ -44,7 +43,7 @@ export const Button = ({
 			{...props}
 		>
 			{label}
-			<span>333344444</span>
+			<span>3333666644444</span>
 		</button>
 	);
 };
