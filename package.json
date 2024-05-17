@@ -47,11 +47,10 @@
 		"vite": "^5.2.0"
 	},
 	"lint-staged": {
-		"src/**/*.{ts,tsx,js}": [
-			"eslint --config .eslintrc.cjs"
-		],
-		"src/**/*.{ts,tsx,js,json,css,less,scss,md}": [
-			"prettier --ignore-unknown --write"
+		"src/**/*.{js,jsx,ts,tsx,json}": [
+			"prettier --write",
+			"eslint",
+			"git add"
 		]
 	}
 }
