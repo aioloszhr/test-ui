@@ -46,11 +46,6 @@
 		"typescript": "^5.2.2",
 		"vite": "^5.2.0"
 	},
-	"husky": {
-		"hooks": {
-			"commit-msg": "commitlint --config .commitlintrc.js -E HUSKY_GIT_PARAMS"
-		}
-	},
 	"lint-staged": {
 		"*.{ts,tsx,js}": [
 			"eslint --config .eslintrc.cjs"
