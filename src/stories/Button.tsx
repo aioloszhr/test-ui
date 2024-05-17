@@ -43,7 +43,6 @@ export const Button = ({
 			{...props}
 		>
 			{label}
-			<span>333644321444</span>
 		</button>
 	);
 };
