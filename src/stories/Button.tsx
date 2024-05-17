@@ -34,7 +34,6 @@ export const Button = ({
 	label,
 	...props
 }: ButtonProps) => {
-	const test = '';
 	const mode = primary ? 'storybook-button--primar' : 'storybook-button--secondary';
 	return (
 		<button
@@ -44,7 +43,7 @@ export const Button = ({
 			{...props}
 		>
 			{label}
-			<span>333644444</span>
+			<span>333644321444</span>
 		</button>
 	);
 };
