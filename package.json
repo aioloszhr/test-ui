@@ -49,7 +49,7 @@
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx}": [
-			"pnpm run lint:script",
+			"prettier --write",
 			"git add ."
 		]
 	}
