@@ -34,7 +34,7 @@ export const Button = ({
 	label,
 	...props
 }: ButtonProps) => {
-	const test = '';
+	const test111 = '';
 	const mode = primary ? 'storybook-button--primar' : 'storybook-button--secondary';
 	return (
 		<button
