@@ -15,7 +15,7 @@ module.exports = {
 
 	rules: {
 		'prettier/prettier': 'error',
-		'@typescript-eslint/no-unused-vars': ['error'],
+		// '@typescript-eslint/no-unused-vars': ['error'],
 		'react-refresh/only-export-components': ['warn', { allowConstantExport: true }]
 	}
 };
